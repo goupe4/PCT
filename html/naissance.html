@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>deces</title>
+</head>
+<body>
+    <div class='header row'><img src='banniere.jpg' id='image'></div>
+<H1>Enregistrer les naissances du jour</H1>
+<FORM name="monform" id="frmcontact" action="naissance.php" method="post">
+
+    <div>
+        <div>
+            <label for="nomprennaiss">nom et prenom</label>
+                <INput type="text" name="nometprenom" id="nomprennaiss"  width="40"></INput>
+        </div></br>
+        <div>
+            <label for="sexnaiss">sexe</label>
+                <select name="sexe" id="sexnaiss">
+                    <option value=""></option>
+                    <option value="feminin">feminin</option>
+                    <option value="Masculin">masculin</option>
+                  </select>
+        </div></br>
+        <div>
+            <label for="datnais">date de naissance</label>
+            <INput type="date" name="datedenaissance"  id="datnais" width="40" ></INput>
+        </div></br> 
+        
+        <div>
+            <label for="lienaiss">lieu de naissance</label>
+                <INput type="text" name="lieudenaissance" id="lienaiss width="40"></INput>
+        </div></br>
+        <div>
+            <label for="pernaiss">nom du pere</label>
+                <INput type="text" name="pere" id="pernaiss width="40"></INput>
+        </div></br>
+        <div>
+            <label for="mernaiss">nom de la mere</label>
+                <INput type="text" name="mere" id="mernaiss width="40"></INput>
+        </div></br> 
+        <div>
+            <label for="liehabnaiss">lieu d'habitation</label>
+                <INput type="text" name="lieudhabitation"  id="liehabnaiss" width="40"></INput>
+        </div></br>
+    </div></br>
+    <input type="submit" value="ENVOYER" width="60"></INput></br>
+</FORM>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pharmacie</title>
+</head>
+<body>
+<div class='header row'><img src='banniere.jpg' id='image'></div>
+<H1>ENREGISTRER LES PHARMACIES DU VILLAGE</H1>
+        <FORM name="FORMPHARM" id="mypharm" action="pharmacie.php" method="post">
+            <div>
+                <div>
+                    <label for="nompharm">Nom</label>
+                        <INput type="text" name="nom" id="nompharm"  width="40"></INput>
+                </div></br>
+                <div>
+                    <label for="respopharm">Responsable</label>
+                        <INput type="text" name="responsable" id="respopharm" width="40"></INput>
+                </div></br>
+                <div>
+                    <label for="telpharm">Telephone</label>
+                        <INput type="number" name="telephone" id="telpharm" width="40"></INput>
+                </div></br>
+                <div>
+                    <label for="adrpharm">Adresse</label>
+                        <INput type="text" name="adresse" id="adrpharm" width="40"></INput>
+                </div></br> 
+                <div>
+                    <label for="sitgeopharm">Situation Geographique</label>
+                    <textarea name="situationgeographique"  id="sitgeopharm" width="40" ></textarea>
+                </div></br> 
+            </div></br>
+            <input type="submit" value="ENVOYER" width="60"></INput></br>
+        </FORM>
+   
+
+    <div class='footer'>
+      <p></p>
+        </div>
+
+</body>
+</html>
+<style>
+    input
+    {
+      display: block;
+    }
+    textarea
+    {
+      display: block;
+    }
+   
+</style>

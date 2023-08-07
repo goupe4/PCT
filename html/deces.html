@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>deces</title>
+</head>
+<body>
+<div class='header row'><img src='banniere.jpg' id='image'></div>
+<H1>Enregistrer les deces</H1>
+<FORM name="monform" id="frmcontact" action="deces.php" method="post">
+
+    <div>
+        <div>
+            <label for="nomprendec">nom</label>
+                <INput type="text" name="nometprenom" id="nomprendec"  width="40"></INput>
+        </div></br>
+        <div>
+            <label for="sexdec">sexe</label>
+                <select name="sexe" id="civil">
+                    <option value=""></option>
+                    <option value="feminin">feminin</option>
+                    <option value="Masculin">masculin</option>
+                  </select>
+        </div></br>
+        <div>
+            <label for="fondec">fonction</label>
+                <INput type="text" name="fonction" id="fondec width="40"></INput>
+        </div></br>
+        <div>
+            <label for="datnaisdec">date de naissance</label>
+            <INput type="date" name="datedenaissance"  id="datnaisdec" width="40" ></INput>
+        </div></br> 
+        <div>
+            <label for="liedec">lieu de deces</label>
+            <select name="lieudedeces" id="liedec">
+                <option value=""></option>
+                <option value="domicile">domicile</option>
+                <option value="hopital">hopital</option>
+                <option value="autres">autres</option>
+              </select>
+        </div></br> 
+        <div>
+            <label for="nomliedec">Adresse du lieu de deces</label>
+                <INput type="text" name="nomlieudedeces" id="nomliedec width="40"></INput>
+        </div></br>
+        <div>
+            <label for="motdec">motif du deces</label>
+                <INput type="text" name="motifdeces" id="motdec width="40"></INput>
+        </div></br>
+        <div>
+            <label for="nomprenpardec">parent du defunt</label>
+                <INput type="text" name="parentdudefunt" id="nomprenpardec width="40"></INput>
+        </div></br>
+        <div>
+            <label for="liehabdec">lieu d'habitation</label>
+                <INput type="text" name="lieuhabitation" id="liehabdec width="40"></INput>
+        </div></br> 
+        <div>
+            <label for="datdec">date de deces</label>
+            <INput type="date" name="datededeces"  id="datdec" width="40" ></INput>
+        </div></br>
+    </div></br>
+    <input type="submit" value="ENVOYER" width="60"></INput></br>
+</FORM>
+</body>
+</html>
